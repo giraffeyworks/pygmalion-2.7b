@@ -10,7 +10,7 @@ def init():
     global tokenizer
 
     print("loading to CPU...")
-    model = AutoModelForCausalLM.from_pretrained("PygmalionAI/pygmalion-2.7bb")
+    model = AutoModelForCausalLM.from_pretrained("PygmalionAI/pygmalion-2.7b")
     print("done")
 
     # conditionally load to GPU
